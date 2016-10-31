@@ -16,9 +16,11 @@ function fonctionValider(){
 		//Teste si la liste i affiche le bon pays
 		if(paysChoisi == tableauPays[i]){
 			// Changement de style de l'élément numéro i
-			document.getElementById("numero"+i).style.backgroundColor='#0066CC';
+			//document.getElementById("numero"+i).style.backgroundColor='#0066CC';
+			document.getElementById("numero"+i).className='OK';
 		}else{
-			document.getElementById("numero"+i).style.backgroundColor='#FFFFFF';
+			//document.getElementById("numero"+i).style.backgroundColor='#FFFFFF';
+			document.getElementById("numero"+i).className='NOK';
 		}
 	}
 }
