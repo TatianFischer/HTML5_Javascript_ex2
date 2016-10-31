@@ -1,0 +1,45 @@
+body{
+	font-family: Verdana, Arial, Sans;
+	font-size: 13px;
+	background-color: #CCC;
+	margin-left: 20px;
+}
+
+#titre{
+	width: 400px;
+	font-size: 3em;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: red;
+	margin-left: 150px;
+}
+
+#page{
+	display: flex;
+}
+
+#blocListeBouton{
+	display:flex;
+	flex-direction: column;
+	margin: 50px 50px 0px 0px;
+}
+
+span{
+	margin-right: 10px;
+}
+
+#boutons{
+	margin-top: 30px;
+}
+
+#carte{
+	border: 2px solid black;
+}
+
+.OK{
+	background-color: #06C;
+}
+
+.NOK{
+	background-color: #F00;
+}
