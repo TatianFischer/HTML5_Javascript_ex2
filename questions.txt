@@ -1,0 +1,3 @@
+Questions traitées : toutes
+
+Navigateurs testés : Moxilla Firefox, chrome, internet explorer (penser à autoriser les scripts).
